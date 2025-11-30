@@ -1,0 +1,115 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #ffffff; /* Change background to white */
+  color: #000000; /* Change font color to black */
+  padding: 40px; /* Increase padding for better spacing */
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Increase gap */
+}
+.footer-logo p {
+  color: #000000; /* Change color to black */
+  font-size: 46px;
+  font-weight: 700;
+}
+.footer-logo img {
+  height: 40px;
+  width: 60px;
+}
+.footer-links {
+  display: flex;
+  list-style: none;
+  gap: 60px; /* Increase gap */
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer-links li {
+  cursor: pointer;
+}
+.footer-social-icons {
+  display: flex;
+  gap: 30px; /* Increase gap */
+  background-color: #ffffff; /* Change background to white */
+}
+.footer-icons-container {
+  padding: 10px 10px;
+  padding-bottom: 6px;
+  background: #6a0dad00; /* Change background to transparent */
+  border: 1px solid #ffffff;
+}
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px; /* Increase gap */
+  width: 100%;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer div hr {
+  width: 80%;
+  border: 0;
+  border-radius: 10px;
+  height: 3px;
+  background: #ffffff;
+}
+.footer-faq {
+  width: 80%;
+  margin: 0 auto 40px auto;
+  text-align: left;
+}
+
+.footer-faq h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4b0082;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+@media(max-width:800px){
+  .footer{
+      gap: 20px;
+  }
+  .footer-logo{
+      gap: 10px;
+      align-items: end;
+  }
+  .footer-logo img{
+      width: 40px;
+  }
+  .footer-logo p{
+      font-size: 25px;
+  }
+  .footer-links{
+      font-size: 14px;
+      gap: 10px;
+  }
+  .footer-social-icon img{
+      width: 22px;
+  }
+  .footer-copyright{
+      font-size: 13px;
+  }
+}

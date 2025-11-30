@@ -1,0 +1,17 @@
+.featured {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.featured h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.featured .collections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}

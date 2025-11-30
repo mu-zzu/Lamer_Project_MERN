@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #F6F6F6;
+  height: 100vh;
+  color: black;
+}
+
+.stylish-purple-text {
+  color: #800080;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
