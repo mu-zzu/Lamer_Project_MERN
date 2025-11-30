@@ -1,0 +1,95 @@
+/* Remove the .popular class */
+.popular {
+  display: none;
+}
+
+/* Redesigned styles */
+.redesigned-page {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.redesigned-page h1 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.redesigned-page hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: #252525;
+}
+
+.redesigned-item {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #6a5acd; /* SlateBlue background */
+  color: white; /* Change text color to white for better visibility */
+}
+
+.navbar a {
+  color: white; /* Ensure links are also white */
+}
+
+@media(max-width:1280px) {
+  .redesigned-page h1 {
+    font-size: 40px;
+  }
+  .redesigned-page hr {
+    width: 160px;
+    height: 4px;
+  }
+  .redesigned-item {
+    gap: 20px;
+    margin-top: 30px;
+  }
+}
+
+@media(max-width:1024px) {
+  .redesigned-page h1 {
+    font-size: 30px;
+  }
+  .redesigned-page hr {
+    width: 120px;
+    height: 3px;
+  }
+  .redesigned-item {
+    gap: 15px;
+    margin-top: 20px;
+  }
+}
+
+@media(max-width:800px) {
+  .redesigned-page {
+    gap: 6px;
+  }
+  .redesigned-page h1 {
+    font-size: 20px;
+  }
+  .redesigned-page hr {
+    width: 100px;
+  }
+  .redesigned-item {
+    gap: 5px;
+  }
+}
+
+@media(max-width:500px) {
+  .redesigned-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

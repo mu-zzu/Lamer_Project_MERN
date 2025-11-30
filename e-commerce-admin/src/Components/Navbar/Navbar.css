@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px black;
+    margin-bottom: 1px;
+    background: white;
+}
+.nav-logo-container {
+    display: flex;
+    align-items: baseline;
+    margin-left: 10px; /* Move the text towards the right */
+}
+.nav-logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav-logo-detail {
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Adjust the position as needed */
+}
+
+.navbar-logo img {
+    width: 75px; /* Adjust the size as needed */
+    height: 40px;
+}
+/* Remove the profile image styles */
+@media(max-width:800px) {
+    .navbar {
+        padding: 15px 30px;
+    } 
+    .nav-logo {
+        font-size: 24px;
+    }
+    .nav-logo-detail {
+        font-size: 16px;
+    }
+}
